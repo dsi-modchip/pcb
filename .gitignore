@@ -1,3 +1,5 @@
 *-backups/
 *.kicad_prl
 *-info-cache
+*-lib-table
+*.bak
