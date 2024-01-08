@@ -12,7 +12,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d940a27c-8c9a-4c59-8f71-2ab6967e9393)
   )
-  (fp_line (start -0.5 0) (end 0.5 0)
+  (fp_line (start -0.3 0) (end 0.3 0)
     (stroke (width 0.05) (type default)) (layer "Edge.Cuts") (tstamp 36b823f9-4c5f-4a74-bf5f-3d7015d3deb6))
   (pad "1" thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (property pad_prop_castellated) (layers "*.Cu" "*.Mask") (tstamp 3a8f0a07-841f-4429-9cc3-2a603baed867))
 )
