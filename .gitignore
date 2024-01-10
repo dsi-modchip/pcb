@@ -1,7 +1,9 @@
 *-backups/
+fab*/
 *.kicad_prl
 *-info-cache
 *-lib-table
 *.bak
 *.round-tracks-config
 *.lck
+fab*.zip
