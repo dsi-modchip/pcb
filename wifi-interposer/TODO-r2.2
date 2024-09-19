@@ -1,0 +1,20 @@
+* decoupling issues @ 250 MHz!!!
+* fix WS2812 not lighting up
+	* needs 5V supply: https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf aaa
+	* fix W22812 footprint (if continuing to use it)
+	* other lighting thing?
+* BETTER POWER SWITCHING!
+	* 3V3 VALUES:
+		* only usb: 3.3
+		* only twl: 3.0
+		* twl+usb: 2.9
+		-> Rds,on is still kinda high at 3V ( https://www.diodes.com/assets/Datasheets/DMC3400SDW.pdf ),
+		   try a different MOSFET instead?
+		   or maybe a TS5A series??
+		   no! use MIC209x-1 or TPS2553
+		   fancy alts: TPS22919, TPS2116, LM66[21]00
+		NOTE: MAIN PROBLEM HERE IS GLITCHING FET NOT ACTUATING 100% AT 3.0V! EVEN WITH REGULAR TWL V33 POWER RAIL! BETTER USE DIFFERENT GLITCH FET CONFIGURATION!
+		---> not an issue? just need different params
+	* TWL->USB power switching too slow? (huge caps on 3V3TWL leading to brownouts in RP2040 before power rail switch happens?)
+		* will need proper PMIC chip to fix....
+* pullups on UART? -> nah
