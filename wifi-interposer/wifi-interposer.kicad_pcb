@@ -8277,7 +8277,7 @@
 			(pintype "passive")
 			(uuid "86430b6c-2ad8-4f1f-a65f-e10872e43d42")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x2mm_P0.45mm_EP1.66x1.36mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14930,6 +14930,17 @@
 			(pintype "passive")
 			(uuid "064fcffb-eb7a-4b67-b88f-5d5d3fa786d0")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal.wrl"
+			(offset
+				(xyz 0 2.5 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 180 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "B.Cu")
@@ -16349,7 +16360,7 @@
 		(at 128.5214 94.2538 -90)
 		(descr "0.50mm Pitch SlimStack Board-to-Board Plug, Surface Mount, Dual Row, Vertical Stacking, 4.00mm Stack Height, without Solder Tabs, 50 Circuits")
 		(property "Reference" "J1"
-			(at -7.68 0 0)
+			(at 7.5462 0 0)
 			(layer "B.SilkS")
 			(uuid "2f80b747-ed55-4324-80bd-1f5fa189c165")
 			(effects
@@ -17817,7 +17828,7 @@
 			(pintype "passive")
 			(uuid "c6aed858-60f9-4581-bbd9-86b232df6482")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x2mm_P0.45mm_EP1.66x1.36mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
